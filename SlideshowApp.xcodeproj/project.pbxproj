@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBF02E061D7717DD0010D504 /* KakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF02E051D7717DD0010D504 /* KakudaiViewController.swift */; };
 		FBF60BBA1D697EB50096D9DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF60BB91D697EB50096D9DF /* AppDelegate.swift */; };
 		FBF60BBC1D697EB50096D9DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF60BBB1D697EB50096D9DF /* ViewController.swift */; };
 		FBF60BBF1D697EB50096D9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BBD1D697EB50096D9DF /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		FBF60BC41D697EB50096D9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BC21D697EB50096D9DF /* LaunchScreen.storyboard */; };
 		FBF60BCF1D697EB50096D9DF /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF60BCE1D697EB50096D9DF /* SlideshowAppTests.swift */; };
 		FBF60BDA1D697EB50096D9DF /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF60BD91D697EB50096D9DF /* SlideshowAppUITests.swift */; };
+		FBF60BF71D69823A0096D9DF /* IMG_3613.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BF21D69823A0096D9DF /* IMG_3613.JPG */; };
+		FBF60BF81D69823A0096D9DF /* IMG_3614.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BF31D69823A0096D9DF /* IMG_3614.JPG */; };
+		FBF60BF91D69823A0096D9DF /* IMG_3615.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BF41D69823A0096D9DF /* IMG_3615.JPG */; };
+		FBF60BFA1D69823A0096D9DF /* IMG_3616.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BF51D69823A0096D9DF /* IMG_3616.JPG */; };
+		FBF60BFB1D69823A0096D9DF /* IMG_3617.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FBF60BF61D69823A0096D9DF /* IMG_3617.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBF02E051D7717DD0010D504 /* KakudaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakudaiViewController.swift; sourceTree = "<group>"; };
 		FBF60BB61D697EB50096D9DF /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF60BB91D697EB50096D9DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF60BBB1D697EB50096D9DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		FBF60BD51D697EB50096D9DF /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF60BD91D697EB50096D9DF /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		FBF60BDB1D697EB50096D9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF60BF21D69823A0096D9DF /* IMG_3613.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3613.JPG; path = ../IMG_3613.JPG; sourceTree = "<group>"; };
+		FBF60BF31D69823A0096D9DF /* IMG_3614.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3614.JPG; path = ../IMG_3614.JPG; sourceTree = "<group>"; };
+		FBF60BF41D69823A0096D9DF /* IMG_3615.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3615.JPG; path = ../IMG_3615.JPG; sourceTree = "<group>"; };
+		FBF60BF51D69823A0096D9DF /* IMG_3616.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3616.JPG; path = ../IMG_3616.JPG; sourceTree = "<group>"; };
+		FBF60BF61D69823A0096D9DF /* IMG_3617.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3617.JPG; path = ../IMG_3617.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,11 @@
 				FBF60BB91D697EB50096D9DF /* AppDelegate.swift */,
 				FBF60BBB1D697EB50096D9DF /* ViewController.swift */,
 				FBF60BBD1D697EB50096D9DF /* Main.storyboard */,
+				FBF02E051D7717DD0010D504 /* KakudaiViewController.swift */,
 				FBF60BC01D697EB50096D9DF /* Assets.xcassets */,
 				FBF60BC21D697EB50096D9DF /* LaunchScreen.storyboard */,
 				FBF60BC51D697EB50096D9DF /* Info.plist */,
+				FBF60BFC1D69CD650096D9DF /* images */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,6 +137,18 @@
 				FBF60BDB1D697EB50096D9DF /* Info.plist */,
 			);
 			path = SlideshowAppUITests;
+			sourceTree = "<group>";
+		};
+		FBF60BFC1D69CD650096D9DF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FBF60BF21D69823A0096D9DF /* IMG_3613.JPG */,
+				FBF60BF31D69823A0096D9DF /* IMG_3614.JPG */,
+				FBF60BF41D69823A0096D9DF /* IMG_3615.JPG */,
+				FBF60BF51D69823A0096D9DF /* IMG_3616.JPG */,
+				FBF60BF61D69823A0096D9DF /* IMG_3617.JPG */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF60BF91D69823A0096D9DF /* IMG_3615.JPG in Resources */,
+				FBF60BF71D69823A0096D9DF /* IMG_3613.JPG in Resources */,
 				FBF60BC41D697EB50096D9DF /* LaunchScreen.storyboard in Resources */,
+				FBF60BFB1D69823A0096D9DF /* IMG_3617.JPG in Resources */,
+				FBF60BF81D69823A0096D9DF /* IMG_3614.JPG in Resources */,
 				FBF60BC11D697EB50096D9DF /* Assets.xcassets in Resources */,
 				FBF60BBF1D697EB50096D9DF /* Main.storyboard in Resources */,
+				FBF60BFA1D69823A0096D9DF /* IMG_3616.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF02E061D7717DD0010D504 /* KakudaiViewController.swift in Sources */,
 				FBF60BBC1D697EB50096D9DF /* ViewController.swift in Sources */,
 				FBF60BBA1D697EB50096D9DF /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +516,7 @@
 				FBF60BE01D697EB50096D9DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBF60BE11D697EB50096D9DF /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +525,7 @@
 				FBF60BE31D697EB50096D9DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBF60BE41D697EB50096D9DF /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +534,7 @@
 				FBF60BE61D697EB50096D9DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
