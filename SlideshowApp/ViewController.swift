@@ -129,6 +129,7 @@ class ViewController: UIViewController {
         
         // 関数が呼ばれていることを確認
         print(dispImageNo)
+        
         // 画像の番号を元に画像を表示する
         displayImage()
         
@@ -208,6 +209,21 @@ class ViewController: UIViewController {
 
         // 遷移先のKakudaiControllerで宣言しているkakudaiImgNoに値を代入して渡す
         kakudaiViewController.kakudaiImgNo = dispImageNo
+        
+        timer.invalidate()
+        timerRunning = true
+            
+        //進むボタンの制御
+        gobutton.enabled = true
+        gobutton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+        
+        //戻るボタンの制御
+        backButton.enabled = true
+        backButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+        
+        //自動再生ボタンの制御
+        autorunButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+        autorunButton.setTitle("再生", forState: UIControlState.Normal)
 
     }
 

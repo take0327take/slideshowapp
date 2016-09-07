@@ -11,7 +11,6 @@ import UIKit
 class KakudaiViewController: UIViewController {
 
     //画像ファイルの設定
-
     @IBOutlet weak var kakudaiImageView: UIImageView!
 
     /// 画像の番号
