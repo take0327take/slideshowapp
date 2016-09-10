@@ -211,15 +211,6 @@ class ViewController: UIViewController {
         kakudaiViewController.kakudaiImgNo = dispImageNo
         
         timer?.invalidate()
-        timerRunning = true
-        
-        if timerRunning==true{
-            timerRunning = false
-        }
-        else{
-            timerRunning = true
-        }
-
         
         //進むボタンの制御
         gobutton.enabled = true
