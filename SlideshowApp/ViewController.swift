@@ -162,7 +162,7 @@ class ViewController: UIViewController {
         }
         else{
             //タイマーを止める処理
-            timer.invalidate()
+            timer?.invalidate()
             timerRunning = true
 
             //進むボタンの制御
@@ -202,7 +202,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
         // segueから遷移先のKakudaiViewControllerを取得する
         let kakudaiViewController:KakudaiViewController = segue.destinationViewController as! KakudaiViewController
@@ -210,9 +210,17 @@ class ViewController: UIViewController {
         // 遷移先のKakudaiControllerで宣言しているkakudaiImgNoに値を代入して渡す
         kakudaiViewController.kakudaiImgNo = dispImageNo
         
-        timer.invalidate()
+        timer?.invalidate()
         timerRunning = true
-            
+        
+        if timerRunning==true{
+            timerRunning = false
+        }
+        else{
+            timerRunning = true
+        }
+
+        
         //進むボタンの制御
         gobutton.enabled = true
         gobutton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
